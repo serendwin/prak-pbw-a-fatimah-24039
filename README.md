@@ -1,4 +1,17 @@
-# TUGAS PERTEMUAN 1
+# TUGAS PERTEMUAN 1 - PRAK PEMROGRAMAN BERBASIS WEB
+
+| **Nama** | Fatimah |
+| **NPM** | 4524210039 |
+
+---
+
+## Daftar Isi
+
+1. [Menjalankan Program Awal](#1-menjalankan-program-awal)
+2. [Modifikasi Program](#2-modifikasi-program)
+3. [Error & Perbaikan](#3-error--perbaikan)
+   
+---
 
 ## 1. Menjalankan Program Awal
 
