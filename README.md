@@ -18,6 +18,210 @@ Program awal yang dijalankan terdiri dari dua contoh program, yaitu kalkulator d
 
 ### 2.1 Modifikasi Program Kalkulator
 
+Pada program ini dilakukan modifikasi dari program kalkulator sederhana menjadi program struk pembelian, program ini digunakan untuk memasukkan nama barang, harga barang, dan jumlah barang dan setelah data dimasukkan, program akan melakukan validasi, menghitung subtotal, dan menampilkan detail pembelian serta total harga.
+
+### 1. Menghitung Subtotal Pembelian
+
+Pada program ditambahkan proses untuk menghitung subtotal berdasarkan harga dan jumlah barang.
+
+```php
+$subtotal = $harga * $jumlah;
+```
+
+Penjelasan:
+
+* `$harga` digunakan untuk menyimpan harga barang yang dimasukkan oleh pengguna.
+* `$jumlah` digunakan untuk menyimpan jumlah barang yang dibeli.
+* Operator `*` digunakan untuk mengalikan harga barang dengan jumlah barang.
+* Hasil perkalian disimpan ke dalam variabel `$subtotal`.
+
+Data yang digunakan misalnya:
+
+```text
+Nama Barang  = Indomie
+Harga Barang = 3500
+Jumlah       = 3
+```
+
+Perhitungannya:
+
+```text
+3500 × 3
+
+= 10500
+```
+
+Sehingga nilai `$subtotal` adalah `10500`.
+
+Hasil subtotal kemudian ditampilkan menggunakan:
+
+```php
+<p>
+    Subtotal:
+    Rp <?= number_format($subtotal, 0, ',', '.') ?>
+</p>
+```
+
+`number_format($subtotal, 0, ',', '.')` digunakan untuk memformat angka agar lebih mudah dibaca dengan menggunakan titik sebagai pemisah ribuan.
+
+Sehingga hasilnya menjadi:
+
+```text
+Subtotal : Rp 10.500
+```
+
+### 2. Menambahkan Validasi Data Pembelian
+
+Pada program ditambahkan validasi untuk memastikan data pembelian yang dimasukkan oleh pengguna sesuai.
+
+```php
+if ($harga <= 0)
+{
+    $pesan = 'Harga barang harus lebih dari 0.';
+}
+elseif ($jumlah <= 0)
+{
+    $pesan = 'Jumlah barang harus lebih dari 0.';
+}
+elseif ($nama_barang == '')
+{
+    $pesan = 'Nama barang harus diisi.';
+}
+```
+
+Penjelasan:
+
+* `if ($harga <= 0)` digunakan untuk mengecek apakah harga barang bernilai 0 atau kurang.
+* Jika harga kurang dari atau sama dengan 0, program menampilkan pesan **`Harga barang harus lebih dari 0.`**
+* `elseif ($jumlah <= 0)` digunakan untuk mengecek apakah jumlah barang bernilai 0 atau kurang.
+* Jika jumlah kurang dari atau sama dengan 0, program menampilkan pesan **`Jumlah barang harus lebih dari 0.`**
+* `elseif ($nama_barang == '')` digunakan untuk mengecek apakah nama barang kosong.
+* Jika nama barang tidak diisi, program menampilkan pesan **`Nama barang harus diisi.`**
+
+Jika seluruh data sudah valid, program akan menjalankan proses perhitungan:
+
+```php
+else
+{
+    $subtotal = $harga * $jumlah;
+}
+```
+
+Artinya, perhitungan subtotal hanya dilakukan apabila nama barang, harga, dan jumlah barang sudah memenuhi validasi.
+
+### 3. Menampilkan Detail Pembelian
+
+Selain menghitung subtotal, program dimodifikasi agar dapat menampilkan detail pembelian.
+
+```php
+<h2>Detail Pembelian</h2>
+
+<p>
+    Nama Barang:
+    <?= htmlspecialchars($nama_barang) ?>
+</p>
+
+<p>
+    Harga:
+    Rp <?= number_format($harga, 0, ',', '.') ?>
+</p>
+
+<p>
+    Jumlah:
+    <?= $jumlah ?>
+</p>
+
+<p>
+    Subtotal:
+    Rp <?= number_format($subtotal, 0, ',', '.') ?>
+</p>
+
+<h3>
+    Total:
+    Rp <?= number_format($subtotal, 0, ',', '.') ?>
+</h3>
+```
+
+`htmlspecialchars($nama_barang)` digunakan untuk menampilkan nama barang dengan lebih aman.
+
+Sedangkan:
+
+```php
+number_format($harga, 0, ',', '.')
+```
+
+digunakan agar harga ditampilkan dalam format rupiah dengan pemisah ribuan.
+
+Contohnya:
+
+```text
+Detail Pembelian
+
+Nama Barang : Indomie
+Harga       : Rp 3.500
+Jumlah      : 3
+Subtotal    : Rp 10.500
+Total       : Rp 10.500
+```
+
+Dengan modifikasi ini, program yang sebelumnya berupa kalkulator sederhana telah diubah menjadi program Struk Pembelian yang dapat menerima data barang, melakukan validasi, menghitung subtotal, dan menampilkan hasil pembelian dalam bentuk sederhana.
+
+## Teknologi yang Digunakan
+
+* PHP
+* HTML
+* XAMPP
+* Web Browser
+
+## Cara Menjalankan Program
+
+1. Pastikan XAMPP sudah terinstall.
+2. Jalankan **Apache** pada XAMPP.
+3. Simpan file program PHP di dalam folder:
+
+```text
+C:\xampp\htdocs\struk-pembelian\
+```
+
+4. Pastikan file utama bernama:
+
+```text
+index.php
+```
+
+5. Buka browser.
+6. Masukkan alamat:
+
+```text
+http://localhost/struk-pembelian/
+```
+
+7. Masukkan nama barang, harga barang, dan jumlah barang.
+8. Klik tombol **Hitung Total**.
+9. Hasil pembelian akan ditampilkan pada halaman.
+
+## Contoh Input
+
+```text
+Nama Barang  : Indomie
+Harga Barang : 3500
+Jumlah       : 3
+```
+
+## Contoh Output
+
+```text
+Detail Pembelian
+
+Nama Barang : Indomie
+Harga       : Rp 3.500
+Jumlah      : 3
+Subtotal    : Rp 10.500
+Total       : Rp 10.500
+```
+
+Modifikasi program dilakukan dengan menambahkan input data barang, perhitungan subtotal, validasi data, dan tampilan detail pembelian untuk melakukan perhitungan sederhana berdasarkan harga dan jumlah barang yang dibeli.
+
 1. Codingan sebelum dimodify
 <img width="290" height="310" alt="image" src="https://github.com/user-attachments/assets/42bb588d-5061-490b-91c6-eddce975ea67" />
 <img width="273" height="227" alt="image" src="https://github.com/user-attachments/assets/26bf3a05-3bc3-4bdc-8a96-6deaa6723936" />
