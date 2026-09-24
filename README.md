@@ -388,6 +388,56 @@ Dengan modifikasi ini, program biodata tidak hanya menampilkan data mahasiswa, t
 ## 3. Error & Perbaikan
 
 ### 3.1 Modifikasi Program Kalkulator
+
+## 2.3 Error yang Ditemukan dan Perbaikan
+
+* Error yang Ditemukan
+
+Error terjadi pada bagian:
+
+```php
+if ($harga >= 0)
+{
+    $pesan = 'Harga barang harus lebih dari 0.';
+}
+```
+
+Terdapat kesalahan logika pada kondisi validasi harga barang. Kondisi yang digunakan sebelumnya terbalik sehingga harga yang sebenarnya valid dianggap sebagai data yang salah.
+
+### Perbaikan
+
+Kesalahan logika tersebut diperbaiki dengan membalik kondisi menjadi:
+
+```php
+if ($harga <= 0)
+{
+    $pesan = 'Harga barang harus lebih dari 0.';
+}
+```
+
+Dengan kondisi tersebut, program hanya akan menampilkan pesan error jika harga bernilai 0 atau kurang.
+
+Contohnya:
+
+```text
+Harga = 5000
+5000 <= 0 → FALSE
+→ Data valid
+```
+
+Sedangkan:
+
+```text
+Harga = -1000
+-1000 <= 0 → TRUE
+→ Harga barang harus lebih dari 0.
+```
+
+Dengan perbaikan tersebut, proses validasi harga dapat berjalan sesuai dengan tujuan program.
+
+
+### 3.2 Modifikasi Program Biodata
+
 * Error yang Ditemukan
 
 Error terjadi pada bagian:
@@ -418,6 +468,3 @@ $semesterTerakhir = max(array_keys($mahasiswa['semester']));
 ```
 
 Dengan data semester 1 sampai 5, nilai `$semesterTerakhir` adalah `5`. Nilai tersebut kemudian digunakan oleh function `statusmahasiswa()`. Karena semester terakhir belum mencapai semester 8, status mahasiswa ditampilkan sebagai **aktif**.
-
-
-### 3.2 Modifikasi Program Biodata
