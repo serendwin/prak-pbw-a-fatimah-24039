@@ -180,62 +180,6 @@ Total       : Rp 10.500
 
 Dengan modifikasi ini, program yang sebelumnya berupa kalkulator sederhana telah diubah menjadi program Struk Pembelian yang dapat menerima data barang, melakukan validasi, menghitung subtotal, dan menampilkan hasil pembelian dalam bentuk sederhana.
 
-## Teknologi yang Digunakan
-
-* PHP
-* HTML
-* XAMPP
-* Web Browser
-
-## Cara Menjalankan Program
-
-1. Pastikan XAMPP sudah terinstall.
-2. Jalankan **Apache** pada XAMPP.
-3. Simpan file program PHP di dalam folder:
-
-```text
-C:\xampp\htdocs\struk-pembelian\
-```
-
-4. Pastikan file utama bernama:
-
-```text
-index.php
-```
-
-5. Buka browser.
-6. Masukkan alamat:
-
-```text
-http://localhost/struk-pembelian/
-```
-
-7. Masukkan nama barang, harga barang, dan jumlah barang.
-8. Klik tombol **Hitung Total**.
-9. Hasil pembelian akan ditampilkan pada halaman.
-
-## Contoh Input
-
-```text
-Nama Barang  : Indomie
-Harga Barang : 3500
-Jumlah       : 3
-```
-
-## Contoh Output
-
-```text
-Detail Pembelian
-
-Nama Barang : Indomie
-Harga       : Rp 3.500
-Jumlah      : 3
-Subtotal    : Rp 10.500
-Total       : Rp 10.500
-```
-
-Modifikasi program dilakukan dengan menambahkan input data barang, perhitungan subtotal, validasi data, dan tampilan detail pembelian untuk melakukan perhitungan sederhana berdasarkan harga dan jumlah barang yang dibeli.
-
 1. Codingan sebelum dimodify
 <img width="290" height="310" alt="image" src="https://github.com/user-attachments/assets/42bb588d-5061-490b-91c6-eddce975ea67" />
 <img width="273" height="227" alt="image" src="https://github.com/user-attachments/assets/26bf3a05-3bc3-4bdc-8a96-6deaa6723936" />
@@ -400,9 +344,11 @@ if ($harga >= 0)
 }
 ```
 
+* Penyebab Error
+
 Terdapat kesalahan logika pada kondisi validasi harga barang. Kondisi yang digunakan sebelumnya terbalik sehingga harga yang sebenarnya valid dianggap sebagai data yang salah.
 
-* Perbaikan
+* Langkah Perbaikan
 
 Kesalahan logika tersebut diperbaiki dengan membalik kondisi menjadi:
 
