@@ -18,7 +18,16 @@ Program awal yang dijalankan terdiri dari dua contoh program, yaitu kalkulator d
 
 ### 2.1 Modifikasi Program Kalkulator
 
-Program kalkulator dimodifikasi dengan menambahkan perubahan pada program sesuai kebutuhan tugas.
+1. Codingan sebelum dimodify
+<img width="290" height="310" alt="image" src="https://github.com/user-attachments/assets/42bb588d-5061-490b-91c6-eddce975ea67" />
+<img width="273" height="227" alt="image" src="https://github.com/user-attachments/assets/26bf3a05-3bc3-4bdc-8a96-6deaa6723936" />
+
+2. Codingan sesudah dimodify
+<img width="215" height="265" alt="image" src="https://github.com/user-attachments/assets/ffaf0a22-e4ae-476f-aa5f-5847549707fe" />
+<img width="288" height="410" alt="image" src="https://github.com/user-attachments/assets/f7c77629-4190-4cf1-971a-9a006baaa961" />
+
+- Output setelah dimodify
+<img width="149" height="320" alt="image" src="https://github.com/user-attachments/assets/c6bb3ecf-3ad0-4024-a5ed-d4a9cb0e86c3" />
 
 ### 2.2 Modifikasi Program Biodata
 
@@ -148,9 +157,14 @@ Status : lulus
 
 Dengan modifikasi ini, program biodata tidak hanya menampilkan data mahasiswa, tetapi juga dapat menghitung nilai IPK berdasarkan IPS dan menentukan status mahasiswa berdasarkan semester terakhir.
 
-1. Sebelum dimodify
+1. Codingan sebelum dimodify
+<img width="320" height="377" alt="image" src="https://github.com/user-attachments/assets/268a89e9-b660-4432-9510-dd4fcf875e19" />
 
+2. Codingan sesudah dimodify
+<img width="280" height="338" alt="image" src="https://github.com/user-attachments/assets/97452c86-91d2-40ff-85f2-e93af5dff897" />
+<img width="322" height="225" alt="image" src="https://github.com/user-attachments/assets/6a7a2909-6395-4731-a219-a339794d30d3" />
 
-2. Sesudah dimodify
-<img width="187" height="196" alt="image" src="https://github.com/user-attachments/assets/2392384b-2b43-42ef-9519-2ddd134d08ae" />
+- Output setelah dimodify
+<img width="212" height="200" alt="image" src="https://github.com/user-attachments/assets/e32de924-3ec5-4017-85b0-6df315373ff7" />
+
 
