@@ -10,9 +10,9 @@
 
 ## 2. Modifikasi Program
 
-### 2.1 — Modify program kalkulator
+### 2.1 — Modify program Kalkulator
 
-### 2.2 — Modigy program 
+### 2.2 — Modify program Biodata
 
 1. Mengitung nilai kumulatif dari setiap IPS
 
@@ -22,12 +22,11 @@ function countingipk(array $ips): float
 }  
 
 Function countingipk digunakan untuk menghitung nilai rata-rata IPS mahasiswa berdasarkan seluruh semester yang tersedia.
-
-array $ips digunakan untuk menerima data IPS dalam bentuk array.
-: float menunjukkan bahwa function akan menghasilkan nilai berupa angka desimal.
-array_sum($ips) digunakan untuk menjumlahkan seluruh nilai IPS.
-count($ips) digunakan untuk menghitung jumlah data IPS atau jumlah semester.
-Hasil penjumlahan seluruh IPS kemudian dibagi dengan jumlah IPS untuk mendapatkan nilai rata-rata.
+- array $ips digunakan untuk menerima data IPS dalam bentuk array.
+- : float menunjukkan bahwa function akan menghasilkan nilai berupa angka desimal.
+- array_sum($ips) digunakan untuk menjumlahkan seluruh nilai IPS.
+- count($ips) digunakan untuk menghitung jumlah data IPS atau jumlah semester.
+- Hasil penjumlahan seluruh IPS kemudian dibagi dengan jumlah IPS untuk mendapatkan nilai rata-rata.
 
     'semester' => 
     [
