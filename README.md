@@ -389,8 +389,6 @@ Dengan modifikasi ini, program biodata tidak hanya menampilkan data mahasiswa, t
 
 ### 3.1 Modifikasi Program Kalkulator
 
-## 2.3 Error yang Ditemukan dan Perbaikan
-
 * Error yang Ditemukan
 
 Error terjadi pada bagian:
@@ -404,7 +402,7 @@ if ($harga >= 0)
 
 Terdapat kesalahan logika pada kondisi validasi harga barang. Kondisi yang digunakan sebelumnya terbalik sehingga harga yang sebenarnya valid dianggap sebagai data yang salah.
 
-### Perbaikan
+* Perbaikan
 
 Kesalahan logika tersebut diperbaiki dengan membalik kondisi menjadi:
 
