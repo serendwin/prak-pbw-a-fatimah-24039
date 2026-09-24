@@ -371,4 +371,39 @@ Dengan modifikasi ini, program biodata tidak hanya menampilkan data mahasiswa, t
 - Output setelah dimodify
 <img width="212" height="200" alt="image" src="https://github.com/user-attachments/assets/e32de924-3ec5-4017-85b0-6df315373ff7" />
 
+## 3. Error & Perbaikan
 
+### 3.1 Modifikasi Program Kalkulator
+* Error yang Ditemukan
+
+Error terjadi pada bagian:
+
+```php
+<li>Status : <?= statusmahasiswa($semesterTerakhir) ?></li>
+```
+
+* Penyebab Error
+
+Variabel `$semesterTerakhir` belum didefinisikan sebelum digunakan. Program mencoba mengirim `$semesterTerakhir` sebagai parameter ke function `statusmahasiswa()`, tetapi variabel tersebut belum memiliki nilai.
+
+* Langkah Perbaikan
+
+Mendefinisikan variabel `$semesterTerakhir` terlebih dahulu dengan mengambil nomor semester terbesar dari data mahasiswa.
+
+```php
+$semesterTerakhir = max(array_keys($mahasiswa['semester']));
+```
+
+`array_keys()` digunakan untuk mengambil nomor semester dari array, sedangkan `max()` digunakan untuk mencari nomor semester terbesar.
+
+Setelah diperbaiki, bagian kode menjadi:
+
+```php
+$ipk = countingipk($mahasiswa['semester']);
+$semesterTerakhir = max(array_keys($mahasiswa['semester']));
+```
+
+Dengan data semester 1 sampai 5, nilai `$semesterTerakhir` adalah `5`. Nilai tersebut kemudian digunakan oleh function `statusmahasiswa()`. Karena semester terakhir belum mencapai semester 8, status mahasiswa ditampilkan sebagai **aktif**.
+
+
+### 3.2 Modifikasi Program Biodata
