@@ -6,6 +6,14 @@
 
 ---
 
+## Daftar Isi
+
+1. [Base Layout](#1-base-layout)
+2. [Home Page](#2-home-page)
+3. [Tentang Kami](#3-tentang-kami)
+4. [Kontak](#4-kontak)
+5. [Blade Syntax](#5-blade-syntax)
+
 ## 1. Base Layout
 Base Layout dibuat sebagai template utama yang digunakan oleh seluruh halaman pada website. Penggunaan Base Layout bertujuan agar komponen yang sama, seperti navbar, footer, dan konfigurasi Tailwind CSS, tidak perlu ditulis berulang kali pada setiap halaman.
 - Codingan :
@@ -35,7 +43,7 @@ menampilkan informasi kontak pembuat digunakan oleh pengguna untuk menghubungi p
 - Output :
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/56fb906f-9e51-4475-b565-1addac2ce149" />
 
-## Blade Syntax
+## 5. Blade Syntax
 Terdapat beberapa penggunaan blade syntax pada projek ini seperti
 - yield() <br>
   digunakan untuk menentukan bagian pada Base Layout yang nantinya akan diisi dengan konten dinamis dari halaman lain.
