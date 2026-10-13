@@ -1,7 +1,18 @@
-# 📘 Laporan Praktikum Pertemuan Ke - 5
+# TUGAS PERTEMUAN 2 - PRAK PEMROGRAMAN BERBASIS WEB
 
-🧑‍🎓 Fatimah - 4523210039
+| **Nama** | Fatimah |
+|---|---|
+| **NPM** | 4524210039 |
 
+---
+
+## Daftar Isi
+
+1. [Base Layout](#1-base-layout)
+2. [Home Page](#2-home-page)
+3. [Tentang Kami](#3-tentang-kami)
+4. [Kontak](#4-kontak)
+5. [Blade Syntax](#5-blade-syntax)
 # 🏫 Website SMP Mentari Ceria
 
 Aplikasi website sekolah berbasis Laravel yang menampilkan informasi kegiatan sekolah dan fitur buku tamu digital untuk SMP Mentari Ceria.
