@@ -1,4 +1,4 @@
-# TUGAS PERTEMUAN 2 - PRAK PEMROGRAMAN BERBASIS WEB
+# TUGAS PERTEMUAN 3 - PRAK PEMROGRAMAN BERBASIS WEB
 
 | **Nama** | Fatimah |
 |---|---|
@@ -6,40 +6,47 @@
 
 ---
 
-## 1. Base Layout
-Base Layout dibuat sebagai template utama yang digunakan oleh seluruh halaman pada website. Penggunaan Base Layout bertujuan agar komponen yang sama, seperti navbar, footer, dan konfigurasi Tailwind CSS, tidak perlu ditulis berulang kali pada setiap halaman.
+## Daftar Isi
+1. [Halaman Utama](#1-halaman-layout)
+2. [Home Page](#2-home-page)
+3. [Tentang Kami](#3-tentang-kami)
+4. [Kontak](#4-kontak)
+5. [Blade Syntax](#5-blade-syntax)
 
-- Codingan :
+---
 
-## 2. Home Page
-Halaman ini berisi informasi utama mengenai website serta menjadi halaman pertama yang dilihat oleh pengguna ketika mengakses website.
-- Codingan :
-- Output :
+## 1. Halaman Utama
+Tampilan beranda sebelum pengguna masuk, setelah Laravel Breeze dikonfigurasi dan layout disatukan.
+![Welcome](image-1.png)
 
-## 3. Tentang Kami
-Halaman ini menjelaskan secara singkat tujuan dan konsep dari project.
-- Codingan :
-- Output :
+---
 
-## 4. Kontak
-menampilkan informasi kontak pembuat digunakan oleh pengguna untuk menghubungi pembuat.
-- Codingan :
-- Output :
+## 2. Halaman Autentikasi (Log in & Register)
 
-## Blade Syntax
-Terdapat beberapa penggunaan blade syntax pada projek ini seperti
-- yield() <br>
-  digunakan untuk menentukan bagian pada Base Layout yang nantinya akan diisi dengan konten dinamis dari halaman lain.
-- extends() <br>
-  digunakan untuk menghubungkan suatu halaman dengan Base Layout.
-- sections() <br>
-  digunakan untuk menentukan isi konten yang akan dimasukkan ke dalam @yield() pada Base Layout.
-- route() <br>
-  digunakan untuk menghasilkan URL berdasarkan nama route yang telah didefinisikan pada file web.php.
-- asset() <br>
-  digunakan untuk memanggil file statis yang berada di dalam folder public, seperti gambar, CSS, JavaScript, dan file lainnya.
+Tampilan form login dan registrasi yang konsisten dengan navigasi aplikasi.
 
+- **Login :** 
+![Login](image-6.png)
 
+- **Reister :**
+![Register](image-2.png)
+
+---  
+
+## 3. Halaman Dashboard 
+Tampilan dashboard setelah login, lengkap dengan menu navigasi utama dan info akun aktif di pojok kanan atas.
+![DashBoard](image-3.png)
+
+---
+
+## 4. Halaman About & Contact
+Penambahan halaman kustom (Tentang Kami dan Kontak) dengan navbar utama yang tetap dipertahankan.
+
+- **About :** 
+![About](image-5.png)
+
+- **Contact :**
+![Contact](image-4.png)
 
 
 
