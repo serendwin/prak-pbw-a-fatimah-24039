@@ -6,7 +6,7 @@
 
 ---
 
-# Website SMP Mentari Ceria
+# Website SMP Mentari Ceria 🏫
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.2">
@@ -16,6 +16,16 @@
 
 ---
 
+## Daftar Isi
+
+- [Tentang Aplikasi](#-tentang-aplikasi)
+- [Fitur Utama](#-fitur-utama)
+- [Tech Stack](#-tech-stack)
+- [Instalasi](#-instalasi)
+- [Penggunaan](#-penggunaan)
+- [Hasil Screenshot Tampilan Website SMP Mentari](#-hasil-screenshot-tampilan-website-smp-mentari)
+
+---
    
 ## Tentang Aplikasi
 
@@ -86,35 +96,23 @@ cd SMP-Mentari
 
 ### 2. `Install Dependencies`
 
-````markdown
-
 ```bash
 composer install
 npm install
 ```
-````
 
 ---
 
 ### 3. `Setup Environment`
 
-````markdown
-### 3. Setup Environment
-
 ```bash
 copy .env.example .env
 php artisan key:generate
 ```
-````
 
 ---
 
 ### 4. `Setup Database` (Kredensial .env)
-
-````markdown
-### 4. Setup Database
-
-Buka file `.env` dan sesuaikan konfigurasi database Anda di Laragon:
 
 ```env
 DB_CONNECTION=mysql
@@ -124,7 +122,6 @@ DB_DATABASE=db_smp_mentari
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-````
 
 ```bash
 php artisan migrate
@@ -134,15 +131,9 @@ php artisan migrate
 
 ### 5. `Penggunaan` (Menjalankan Server)
 
-````markdown
-## 💻 Penggunaan
-
-**Terminal 1 (Backend Server):**
-
 ```bash
 php artisan serve
 ```
-````
 
 ```bash
 npm run dev
