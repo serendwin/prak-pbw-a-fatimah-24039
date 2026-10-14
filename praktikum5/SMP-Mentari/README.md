@@ -51,6 +51,8 @@ Website SMP Mentari Ceria adalah aplikasi web sederhana yang dibangun dengan Lar
    - Menambah, mengedit, dan menghapus data kegiatan.
    - Melihat dan mengelola pesan buku tamu.
 
+---
+
 ## Fitur Utama
 
 - **Jejak Kegiatan Sekolah** - Menampilkan berbagai aktivitas dan acara sekolah dalam bentuk kartu informasi yang menarik.
@@ -61,6 +63,8 @@ Website SMP Mentari Ceria adalah aplikasi web sederhana yang dibangun dengan Lar
 - **Responsive Design** -  Menyesuaikan tata letak website agar nyaman digunakan melalui komputer, tablet, maupun smartphone.
 - **Informasi Waktu Pesan** - Menampilkan perkiraan waktu sejak pesan dikirim, seperti “2 jam yang lalu”.
 - **Modern UI/UX** - Menggunakan desain sederhana, rapi, dan konsisten dengan dukungan Tailwind CSS. 
+
+---
 
 ## Tech Stack
 
@@ -82,7 +86,9 @@ Website SMP Mentari Ceria adalah aplikasi web sederhana yang dibangun dengan Lar
 - **Laravel Pint** - Code Style Fixer
 - **Concurrently** - Multi-command Runner
 
-## 🚀 Instalasi
+---
+
+## Instalasi
 
 Ikuti langkah-langkah di bawah ini untuk menjalankan proyek secara lokal:
 
@@ -140,6 +146,7 @@ php artisan serve
 npm run dev
 Aplikasi dapat diakses melalui browser pada alamat: [http://127.0.0.1:8000]
 ```
+---
 
 ## Hasil Screenshot
 
