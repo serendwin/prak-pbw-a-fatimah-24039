@@ -4,7 +4,6 @@
         <nav class="space-x-4">
             <a href="{{ url('/') }}" class="text-gray-600 hover:text-blue-600">Home</a>
             <a href="{{ url('/bukutamu') }}" class="text-gray-600 hover:text-blue-600">Buku Tamu</a>
-
             @auth
                 <a href="{{ url('/dashboard') }}" class="text-gray-600 hover:text-blue-600">Dashboard</a>
                 <form method="POST" action="{{ route('logout') }}" class="inline">

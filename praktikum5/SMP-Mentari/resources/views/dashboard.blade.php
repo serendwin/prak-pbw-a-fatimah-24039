@@ -1,10 +1,17 @@
-@extends('layouts.admin')
+<x-app-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+            {{ __('Dashboard') }}
+        </h2>
+    </x-slot>
 
-@section('admin_title', 'Dashboard')
-
-@section('admin_content')
-    <div class="bg-white p-6 rounded-lg shadow-md">
-        <h3 class="text-xl font-semibold mb-4">Selamat Datang, {{ Auth::user()->name }}!</h3>
-        <p>Ini adalah pusat kendali untuk website SMP Mentari. Silakan pilih menu di sebelah kiri untuk mulai mengelola konten.</p>
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+                <div class="p-6 text-gray-900">
+                    {{ __("You're logged in!") }}
+                </div>
+            </div>
+        </div>
     </div>
-@endsection
+</x-app-layout>
