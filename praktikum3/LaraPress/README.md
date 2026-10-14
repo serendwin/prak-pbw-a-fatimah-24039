@@ -7,12 +7,11 @@
 ---
 
 ## Daftar Isi
-1. [Halaman Utama](#1-halaman-layout)
-2. [Home Page](#2-home-page)
-3. [Tentang Kami](#3-tentang-kami)
-4. [Kontak](#4-kontak)
-5. [Blade Syntax](#5-blade-syntax)
-
+1. [Halaman Utama](#1-halaman-utama)
+2. [Halaman Autentikasi (Log in & Register)](#2-halaman-autentikasi-log-in--register)
+3. [Halaman Dashboard](#3-halaman-dashboard)
+4. [Halaman About & Contact](#4-halaman-about--contact)
+   
 ---
 
 ## 1. Halaman Utama
