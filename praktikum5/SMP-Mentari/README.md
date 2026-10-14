@@ -18,12 +18,13 @@
 
 ## Daftar Isi
 
-- [Tentang Aplikasi](#-tentang-aplikasi)
-- [Fitur Utama](#-fitur-utama)
-- [Tech Stack](#-tech-stack)
-- [Instalasi](#-instalasi)
-- [Penggunaan](#-penggunaan)
-- [Hasil Screenshot Tampilan Website SMP Mentari](#-hasil-screenshot-tampilan-website-smp-mentari)
+- [Tentang Aplikasi](#tentang-aplikasi)
+- [Fitur Halaman](#fitur-halaman)
+- [Fitur Utama](#fitur-utama)
+- [Tech Stack](#tech-stack)
+- [Instalasi](#instalasi)
+- [Menjalankan Aplikasi](#menjalankan-aplikasi)
+- [Hasil Screenshot](#hasil-screenshot)
 
 ---
    
@@ -140,21 +141,27 @@ npm run dev
 Aplikasi dapat diakses melalui browser pada alamat: [http://127.0.0.1:8000]
 ```
 
-📸 Hasil Screenshot Tampilan Website SMP Mentari
+## Hasil Screenshot
 
 ### 1. Halaman Home
 
 > ![halaman home](image.png)
 
+---
+
 ### 2. Halaman Buku Tamu
 
 ![halaman buku tamu](image-1.png)
+
+---
 
 ### 3. Halaman Register & Login
 
 |     Halaman Register     |     Halaman Login     |
 | :----------------------: | :-------------------: |
 | ![Register](image-2.png) | ![Login](image-4.png) |
+
+---
 
 ### 4. Halaman Dashboard Admin
 
