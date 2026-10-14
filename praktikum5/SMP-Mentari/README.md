@@ -1,4 +1,4 @@
-# TUGAS PERTEMUAN 2 - PRAK PEMROGRAMAN BERBASIS WEB
+# TUGAS PERTEMUAN 5 - PRAK PEMROGRAMAN BERBASIS WEB
 
 | **Nama** | Fatimah |
 |---|---|
@@ -6,16 +6,7 @@
 
 ---
 
-## Daftar Isi
-
-1. [Base Layout](#1-base-layout)
-2. [Home Page](#2-home-page)
-3. [Tentang Kami](#3-tentang-kami)
-4. [Kontak](#4-kontak)
-5. [Blade Syntax](#5-blade-syntax)
-# 🏫 Website SMP Mentari Ceria
-
-Aplikasi website sekolah berbasis Laravel yang menampilkan informasi kegiatan sekolah dan fitur buku tamu digital untuk SMP Mentari Ceria.
+# Website SMP Mentari Ceria
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.2">
@@ -23,98 +14,54 @@ Aplikasi website sekolah berbasis Laravel yang menampilkan informasi kegiatan se
   <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
 </p>
 
-## Instalasi
+## Daftar Isi
 
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/adiwp/pbw.git
-cd smpmentari
-```
-
-### 2. Install Dependencies
-
-```bash
-# Install PHP dependencies
-composer install
-
-# Install Node dependencies
-npm install
-```
-
-### 3. Setup Environment
-
-```bash
-# Copy file .env
-cp .env.example .env
-
-# Generate application key
-php artisan key:generate
-```
-
-### 4. Setup Database
-
-```bash
-# Jalankan migrasi
-php artisan migrate
-```
-
-### 5. Build Assets
-
-```bash
-# Development
-npm run dev
-
-# Production
-npm run build
-```
-
-### 6. Jalankan Aplikasi
-
-```bash
-# Menggunakan built-in server
-php artisan serve
-
-# Atau menggunakan composer script (recommended)
-composer dev
-```
-
-Aplikasi akan berjalan di: `http://localhost:8000`
-
-## 📋 Daftar Isi
-
-- [Tentang Aplikasi](#-tentang-aplikasi)
-- [Fitur Utama](#-fitur-utama)
-- [Tech Stack](#-tech-stack)
-- [Persyaratan Sistem](#-persyaratan-sistem)
-- [Instalasi](#-instalasi)
-- [Penggunaan](#-penggunaan)
-- [Struktur Database](#-struktur-database)
-- [Struktur Project](#-struktur-project)
-- [Pengembangan](#-pengembangan)
-- [Testing](#-testing)
-- [Lisensi](#-lisensi)
-
-## 🎯 Tentang Aplikasi
+- [TUGAS PERTEMUAN 5 - PRAK PEMROGRAMAN BERBASIS WEB](#tugas-pertemuan-5---prak-pemrograman-berbasis-web)
+- [Website SMP Mentari Ceria](#website-smp-mentari-ceria)
+  - [Daftar Isi](#daftar-isi)
+  - [Tentang Aplikasi](#tentang-aplikasi)
+    - [Fitur Halaman:](#fitur-halaman)
+  - [Fitur Utama](#fitur-utama)
+  - [Tech Stack](#tech-stack)
+    - [Backend](#backend)
+    - [Frontend](#frontend)
+    - [Development Tools](#development-tools)
+   
+## Tentang Aplikasi
 
 Website SMP Mentari Ceria adalah aplikasi web sederhana yang dibangun dengan Laravel 12 untuk menampilkan informasi dan kegiatan sekolah. Aplikasi ini dilengkapi dengan fitur buku tamu digital yang memungkinkan pengunjung meninggalkan pesan dan kesan mereka.
 
 ### Fitur Halaman:
 
-1. **Halaman Home** - Menampilkan kegiatan-kegiatan terbaru sekolah
-2. **Buku Tamu** - Formulir interaktif untuk pengunjung meninggalkan pesan
+1. **Halaman Beranda :**  
+   - Menampilkan informasi umum sekolah.
+   - Menyajikan pengumuman dan kegiatan terbaru
+   - Menampilkan dokumentasi kegiatan sekolah.
+2. **Buku Tamu :** 
+   - Menyediakan formulir untuk mengisi identitas pengunjung.
+   - Memungkinkan pengunjung mengirimkan pesan, saran, dan kritik.
+   - Menyimpan pesan pengunjung untuk dikelola oleh admin.
+3. **Login dan Registrasi :** 
+   - Menyediakan fitur autentikasi pengguna.
+   - Memungkinkan admin masuk ke halaman pengelolaan.
+   - Membatasi akses ke halaman administrasi bagi pengguna yang berwenang.
+4. **Panel Administrasi :**
+   - Mengelola informasi dan kegiatan sekolah.
+   - Menambah, mengedit, dan menghapus data kegiatan.
+   - Melihat dan mengelola pesan buku tamu.
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-- ✅ **Tampilan Kegiatan Sekolah** - Showcase kegiatan terbaru dengan card design
-- ✅ **Buku Tamu Digital** - Pengunjung dapat meninggalkan pesan
-- ✅ **Form Validasi** - Validasi input untuk nama, email, dan pesan
-- ✅ **Real-time Feedback** - Notifikasi sukses/error setelah submit
-- ✅ **Responsive Design** - Tampilan optimal di semua device
-- ✅ **Timestamp Relatif** - Menampilkan waktu pesan (e.g., "2 jam yang lalu")
-- ✅ **Modern UI/UX** - Desain clean dengan Tailwind CSS
+- **Jejak Kegiatan Sekolah** - Menampilkan berbagai aktivitas dan acara sekolah dalam bentuk kartu informasi yang menarik.
+- **Layanan Buku Tamu Online** - Memfasilitasi pengunjung untuk menyampaikan komentar, saran, maupun pesan melalui website.
+- **Validasi Data Pengunjung** - Memastikan nama, alamat email, dan isi pesan diisi sesuai ketentuan sebelum dikirim.
+- 2377
+- **Notifikasi Pengiriman Pesan** - Memberikan informasi kepada pengguna mengenai keberhasilan atau kegagalan pengiriman pesan.
+- **Responsive Design** -  Menyesuaikan tata letak website agar nyaman digunakan melalui komputer, tablet, maupun smartphone.
+- **Informasi Waktu Pesan** - Menampilkan perkiraan waktu sejak pesan dikirim, seperti “2 jam yang lalu”.
+- **Modern UI/UX** - Menggunakan desain sederhana, rapi, dan konsisten dengan dukungan Tailwind CSS. 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **Laravel** 12.x - PHP Framework
@@ -134,40 +81,3 @@ Website SMP Mentari Ceria adalah aplikasi web sederhana yang dibangun dengan Lar
 - **Laravel Pint** - Code Style Fixer
 - **Concurrently** - Multi-command Runner
 
-## 📸 Hasil Screenshot Tampilan Website SMP Mentari
-
-### Halaman Home
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a64d64a0-c13f-4f85-b745-ca34a580c4bc" />
-
-### Halaman Buku Tamu
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fc71c127-20ae-4606-9063-73d93efc70eb" />
-
-### Halaman Register
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/425f065c-c92d-47e8-95b2-c27041a9b905" />
-
-### Halaman Login
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/216e71f2-a8bc-46f5-9af4-9f48c943a1fb" />
-
-### Halaman Dashboard
-
-Dashboard di akses ketika sudah login dan bisa mengatur atau pusat kendali dari website SMP Mentari
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d7cc61dc-9829-4b7c-b6fe-8f0ca5219578" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f5ad41b2-4b7e-4a5f-84fd-ee30bff50e25" />
-
-Kendali atau mengelola kegiatan SMP Mentari
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8cb3d83f-d7ef-435a-8eca-88d56d8b293a" />
-
-Kelola Buku Tamu
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/28af5ada-efb2-4f30-8b79-9ca7e41ea285" />
-
-Konfigurasi tampilan Home Kegiatan per page dengan default nya 6 (Bisa diubah sesuai keinginan)
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c90e5fe0-69c9-4137-8112-a0101aef31d7" />
-
-<p align="center">
-Made with ❤️ for SMP Mentari Ceria
-</p>
