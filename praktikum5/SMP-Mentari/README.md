@@ -14,29 +14,6 @@
   <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
 </p>
 
-## 📋 Daftar Isi
-
-- [TUGAS PERTEMUAN 5 - PRAK PEMROGRAMAN BERBASIS WEB](#tugas-pertemuan-5---prak-pemrograman-berbasis-web)
-- [Website SMP Mentari Ceria](#website-smp-mentari-ceria)
-  - [📋 Daftar Isi](#-daftar-isi)
-  - [Tentang Aplikasi](#tentang-aplikasi)
-    - [Fitur Halaman:](#fitur-halaman)
-  - [Fitur Utama](#fitur-utama)
-  - [Tech Stack](#tech-stack)
-    - [Backend](#backend)
-    - [Frontend](#frontend)
-    - [Development Tools](#development-tools)
-  - [🚀 Instalasi](#-instalasi)
-    - [1. Clone Repository](#1-clone-repository)
-    - [2. `Install Dependencies`](#2-install-dependencies)
-    - [3. `Setup Environment`](#3-setup-environment)
-    - [4. `Setup Database` (Kredensial .env)](#4-setup-database-kredensial-env)
-    - [5. `Penggunaan` (Menjalankan Server)](#5-penggunaan-menjalankan-server)
-    - [1. Halaman Home](#1-halaman-home)
-    - [2. Halaman Buku Tamu](#2-halaman-buku-tamu)
-    - [3. Halaman Register \& Login](#3-halaman-register--login)
-    - [4. Halaman Dashboard Admin](#4-halaman-dashboard-admin)
-
 ---
 
    
