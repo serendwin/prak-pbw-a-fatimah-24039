@@ -14,11 +14,11 @@
   <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
 </p>
 
-## Daftar Isi
+## 📋 Daftar Isi
 
 - [TUGAS PERTEMUAN 5 - PRAK PEMROGRAMAN BERBASIS WEB](#tugas-pertemuan-5---prak-pemrograman-berbasis-web)
 - [Website SMP Mentari Ceria](#website-smp-mentari-ceria)
-  - [Daftar Isi](#daftar-isi)
+  - [📋 Daftar Isi](#-daftar-isi)
   - [Tentang Aplikasi](#tentang-aplikasi)
     - [Fitur Halaman:](#fitur-halaman)
   - [Fitur Utama](#fitur-utama)
@@ -26,6 +26,19 @@
     - [Backend](#backend)
     - [Frontend](#frontend)
     - [Development Tools](#development-tools)
+  - [🚀 Instalasi](#-instalasi)
+    - [1. Clone Repository](#1-clone-repository)
+    - [2. `Install Dependencies`](#2-install-dependencies)
+    - [3. `Setup Environment`](#3-setup-environment)
+    - [4. `Setup Database` (Kredensial .env)](#4-setup-database-kredensial-env)
+    - [5. `Penggunaan` (Menjalankan Server)](#5-penggunaan-menjalankan-server)
+    - [1. Halaman Home](#1-halaman-home)
+    - [2. Halaman Buku Tamu](#2-halaman-buku-tamu)
+    - [3. Halaman Register \& Login](#3-halaman-register--login)
+    - [4. Halaman Dashboard Admin](#4-halaman-dashboard-admin)
+
+---
+
    
 ## Tentang Aplikasi
 
@@ -81,3 +94,100 @@ Website SMP Mentari Ceria adalah aplikasi web sederhana yang dibangun dengan Lar
 - **Laravel Pint** - Code Style Fixer
 - **Concurrently** - Multi-command Runner
 
+## 🚀 Instalasi
+
+Ikuti langkah-langkah di bawah ini untuk menjalankan proyek secara lokal:
+
+### 1. Clone Repository
+
+```bash
+git clone [https://github.com/belvahndryn/Prak_PBW_A_BelvariaHendriyani_24078.git](https://github.com/belvahndryn/Prak_PBW_A_BelvariaHendriyani_24078.git)
+cd SMP-Mentari
+```
+
+---
+
+### 2. `Install Dependencies`
+
+````markdown
+
+```bash
+composer install
+npm install
+```
+````
+
+---
+
+### 3. `Setup Environment`
+
+````markdown
+### 3. Setup Environment
+
+```bash
+copy .env.example .env
+php artisan key:generate
+```
+````
+
+---
+
+### 4. `Setup Database` (Kredensial .env)
+
+````markdown
+### 4. Setup Database
+
+Buka file `.env` dan sesuaikan konfigurasi database Anda di Laragon:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=db_smp_mentari
+DB_USERNAME=root
+DB_PASSWORD=
+```
+````
+
+```bash
+php artisan migrate
+```
+
+---
+
+### 5. `Penggunaan` (Menjalankan Server)
+
+````markdown
+## 💻 Penggunaan
+
+**Terminal 1 (Backend Server):**
+
+```bash
+php artisan serve
+```
+````
+
+```bash
+npm run dev
+Aplikasi dapat diakses melalui browser pada alamat: [http://127.0.0.1:8000]
+```
+
+📸 Hasil Screenshot Tampilan Website SMP Mentari
+
+### 1. Halaman Home
+
+> ![halaman home](image.png)
+
+### 2. Halaman Buku Tamu
+
+![halaman buku tamu](image-1.png)
+
+### 3. Halaman Register & Login
+
+|     Halaman Register     |     Halaman Login     |
+| :----------------------: | :-------------------: |
+| ![Register](image-2.png) | ![Login](image-4.png) |
+
+### 4. Halaman Dashboard Admin
+
+![dashboad admin](image-3.png)
