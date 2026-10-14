@@ -95,8 +95,7 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan proyek secara lokal:
 ### 1. Clone Repository
 
 ```bash
-git clone [https://github.com/belvahndryn/Prak_PBW_A_BelvariaHendriyani_24078.git](https://github.com/belvahndryn/Prak_PBW_A_BelvariaHendriyani_24078.git)
-cd SMP-Mentari
+git clone [https://github.com/serendwin/prak-pbw-a-fatimah-24039.git] cd SMP-Mentari
 ```
 
 ---
