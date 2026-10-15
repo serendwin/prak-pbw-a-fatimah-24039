@@ -1,4 +1,4 @@
-# TUGAS PERTEMUAN 2 - PRAK PEMROGRAMAN BERBASIS WEB
+# TUGAS PERTEMUAN 3 - PRAK PEMROGRAMAN BERBASIS WEB
 
 | **Nama** | Fatimah |
 |---|---|
@@ -7,12 +7,11 @@
 ---
 
 ## Daftar Isi
-
-1. [Base Layout](#1-base-layout)
-2. [Home Page](#2-home-page)
-3. [Tentang Kami](#3-tentang-kami)
-4. [Kontak](#4-kontak)
-5. [Blade Syntax](#5-blade-syntax)
+[Base Layout](#1-base-layout)
+[Home Page](#2-home-page)
+[Tentang Kami](#3-tentang-kami)
+[Kontak](#4-kontak)
+[Blade Syntax](#5-blade-syntax)
 
 ## 1. Base Layout
 Base Layout dibuat sebagai template utama yang digunakan oleh seluruh halaman pada website. Penggunaan Base Layout bertujuan agar komponen yang sama, seperti navbar, footer, dan konfigurasi Tailwind CSS, tidak perlu ditulis berulang kali pada setiap halaman.
