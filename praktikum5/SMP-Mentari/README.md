@@ -19,7 +19,6 @@
 ## Daftar Isi
 
 - [Tentang Aplikasi](#tentang-aplikasi)
-- [Fitur Halaman](#fitur-halaman)
 - [Fitur Utama](#fitur-utama)
 - [Tech Stack](#tech-stack)
 - [Instalasi](#instalasi)
@@ -33,7 +32,6 @@
 Website SMP Mentari Ceria adalah aplikasi web sederhana yang dibangun dengan Laravel 12 untuk menampilkan informasi dan kegiatan sekolah. Aplikasi ini dilengkapi dengan fitur buku tamu digital yang memungkinkan pengunjung meninggalkan pesan dan kesan mereka.
 
 ### Fitur Halaman:
-
 1. **Halaman Beranda :**  
    - Menampilkan informasi umum sekolah.
    - Menyajikan pengumuman dan kegiatan terbaru
