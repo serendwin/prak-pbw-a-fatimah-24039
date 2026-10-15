@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+// Import Controller
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PesanTamuController;
 use App\Http\Controllers\DashboardController;

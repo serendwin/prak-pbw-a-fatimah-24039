@@ -149,26 +149,41 @@ Aplikasi dapat diakses melalui browser pada alamat: [http://127.0.0.1:8000]
 
 ## Hasil Screenshot
 
-### 1. Halaman Home
 
-> ![halaman home](image.png)
+### 1. Halaman Register & Login
 
----
+- **Register :** 
+![Register](image-3.png)
 
-### 2. Halaman Buku Tamu
-
-![halaman buku tamu](image-1.png)
-
----
-
-### 3. Halaman Register & Login
-
-|     Halaman Register     |     Halaman Login     |
-| :----------------------: | :-------------------: |
-| ![Register](image-2.png) | ![Login](image-4.png) |
+-  **Login :**
+![Login](image-4.png)
 
 ---
 
-### 4. Halaman Dashboard Admin
+### 2. Halaman Utama
+![Halaman Utama](image.png)
 
-![dashboad admin](image-3.png)
+---
+
+### 3. Halaman Dashboard Admin
+![Dashboard](image-6.png)
+
+---  
+
+### 4. Halaman Buku Tamu
+- **Pengiputan :**
+![Buku Tamu](image-2.png)
+
+- **Sesudah Diinput :**
+![Buku Tamu](image-5.png)
+
+---  
+
+### 5. Kegiatan
+- **Pengiputan :**
+![alt text](image-7.png)
+
+- **Sesudah Diinput :**
+![Kegiatan](image-1.png)
+
+---  
