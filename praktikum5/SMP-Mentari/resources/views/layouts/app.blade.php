@@ -31,6 +31,11 @@
             <main>
                 @yield('content')
             </main>
+
+            <!-- Footer -->
+            <footer class="text-center text-sm text-gray-500 py-6">
+                &copy; {{ date('Y') }} SMP Mentari. All Rights Reserved.
+            </footer>
         </div>
     </body>
 </html>
