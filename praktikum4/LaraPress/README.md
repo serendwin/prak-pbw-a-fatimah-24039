@@ -7,8 +7,6 @@
 ---
 
 ## Daftar Isi
-- [TUGAS PERTEMUAN 3 - PRAK PEMROGRAMAN BERBASIS WEB](#tugas-pertemuan-3---prak-pemrograman-berbasis-web)
-  - [Daftar Isi](#daftar-isi)
   - [1. Halaman Utama](#1-halaman-utama)
   - [2. Halaman Autentikasi (Log in \& Register)](#2-halaman-autentikasi-log-in--register)
   - [3. Halaman Dashboard](#3-halaman-dashboard)
