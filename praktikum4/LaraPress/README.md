@@ -7,10 +7,10 @@
 ---
 
 ## Daftar Isi
-  - [1. Halaman Utama](#1-halaman-utama)
-  - [2. Halaman Autentikasi (Log in \& Register)](#2-halaman-autentikasi-log-in--register)
-  - [3. Halaman Dashboard](#3-halaman-dashboard)
-  - [4. Halaman About \& Contact](#4-halaman-about--contact)
+  - [Halaman Utama](#1-halaman-utama)
+  - [Halaman Autentikasi (Log in \& Register)](#2-halaman-autentikasi-log-in--register)
+  - [Halaman Dashboard](#3-halaman-dashboard)
+  - [Halaman About \& Contact](#4-halaman-about--contact)
    
 ---
 
