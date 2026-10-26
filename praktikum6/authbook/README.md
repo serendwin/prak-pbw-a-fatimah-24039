@@ -4,10 +4,17 @@
 |---|---|
 | **NPM** | 4524210039 |
 
-
 # 📚 Authbook — Aplikasi Pengelolaan Buku
 
 **Authbook** merupakan aplikasi berbasis web yang dikembangkan untuk mempermudah proses pengelolaan koleksi buku dan informasi penulis. Proyek ini menggunakan **Laravel 11** sebagai framework utama dan **Filament 3.x** untuk membangun panel administrasi yang praktis dan mudah digunakan.
+
+## 📑 Daftar Isi
+
+1. [Fitur Aplikasi](#-fitur-aplikasi)
+2. [Teknologi yang Digunakan](#-teknologi-yang-digunakan)
+3. [Cara Menjalankan Proyek](#-cara-menjalankan-proyek)
+4. [Informasi Login Administrator](#-informasi-login-administrator)
+5. [Hasil Output](#-hasil-output)
 
 ## ✨ Fitur Aplikasi
 
