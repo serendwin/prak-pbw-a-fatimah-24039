@@ -156,7 +156,7 @@ Setiap role memiliki hak akses yang berbeda sesuai dengan tanggung jawabnya.
 - **Staff:** Dapat melihat, menambah, dan mengedit data buku maupun penulis, tetapi tidak dapat menghapus data.
 - **Viewer:** Hanya dapat melihat daftar dan detail buku maupun penulis tanpa melakukan perubahan data.
 
-## 📸 Hasil Output (Tugas 2)
+## 📸 Hasil Output
 
 ### 1. Description
 ![alt text](image-9.png)
