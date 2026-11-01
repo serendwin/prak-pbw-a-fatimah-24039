@@ -14,7 +14,7 @@
 3. [Panduan Instalasi dan Setup Proyek](#-panduan-instalasi-dan-setup-proyek)
 4. [Credential Akses](#-credential-akses)
 5. [Hak Akses Berdasarkan Role](#-hak-akses-berdasarkan-role)
-6. [Hasil Output](#-hasil-output-(tugas3))
+6. [Hasil Output](#-hasil-output-(tugas2))
    
 ## 🛠️ Fitur Aplikasi
 1. Login dan Panel Admin
