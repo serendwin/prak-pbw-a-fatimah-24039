@@ -7,6 +7,15 @@
 # 📚 Authbook — Aplikasi Pengelolaan Buku
 **Authbook** merupakan aplikasi berbasis web yang dikembangkan untuk mempermudah proses pengelolaan koleksi buku dan informasi penulis. Proyek ini menggunakan **Laravel 11** sebagai framework utama dan **Filament 3.x** untuk membangun panel administrasi yang praktis dan mudah digunakan.
 
+## 📑 Daftar Isi
+
+1. [Fitur Aplikasi](#-fitur-aplikasi)
+2. [Teknologi yang Digunakan](#️-teknologi-yang-digunakan)
+3. [Panduan Instalasi dan Setup Proyek](#-panduan-instalasi-dan-setup-proyek)
+4. [Credential Akses](#-credential-akses)
+5. [Hak Akses Berdasarkan Role](#️-hak-akses-berdasarkan-role)
+6. [Hasil Output Aplikasi](#-hasil-output-aplikasi)
+
 ## 🛠️ Fitur Aplikasi
 1. Login dan Panel Admin
 2. Pengelolaan Data Penulis
@@ -115,13 +124,11 @@ php artisan serve
 
 Akses aplikasi melalui browser di alamat: `http://127.0.0.1:8000/admin`
 
-## 📊 Credential Akses
+## 🔐 Credential Akses
 
-- Akun Login Admin Panel
+Seluruh akun berikut telah disediakan melalui **Database Seeder** dan dapat digunakan untuk masuk ke Admin Panel.
 
-Gunakan akun berikut untuk masuk ke halaman Admin Panel. Seluruh akun telah dibuat melalui **Database Seeder**.
-
-**URL Login:** `http://127.0.0.1:8000/admin/login`
+**URL Login:** http://127.0.0.1:8000/admin/login
 
 | Role | Email | Password |
 |---|---|---|
@@ -129,7 +136,9 @@ Gunakan akun berikut untuk masuk ke halaman Admin Panel. Seluruh akun telah dibu
 | Staff | staff@example.com | password |
 | Viewer | viewer@example.com | password |
 
-- Hak Akses Berdasarkan Role
+> **Catatan:** Seluruh akun menggunakan password yang sama, yaitu `password`.
+
+## 🛡️ Hak Akses Berdasarkan Role
 
 Setiap role memiliki hak akses yang berbeda sesuai dengan tanggung jawabnya.
 
@@ -140,6 +149,12 @@ Setiap role memiliki hak akses yang berbeda sesuai dengan tanggung jawabnya.
 | Mengedit buku/penulis | ✅ | ✅ | ❌ |
 | Menghapus buku/penulis | ✅ | ❌ | ❌ |
 | Bulk Delete (menghapus banyak data sekaligus) | ✅ | ❌ | ❌ |
+
+### Keterangan Role
+
+- **Admin:** Memiliki akses penuh untuk melihat, menambah, mengedit, dan menghapus data buku maupun penulis.
+- **Staff:** Dapat melihat, menambah, dan mengedit data buku maupun penulis, tetapi tidak dapat menghapus data.
+- **Viewer:** Hanya dapat melihat daftar dan detail buku maupun penulis tanpa melakukan perubahan data.
 
 ## 📸 Hasil Output (Tugas 2)
 
