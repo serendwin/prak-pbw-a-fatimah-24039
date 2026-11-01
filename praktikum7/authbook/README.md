@@ -14,7 +14,7 @@
 3. [Panduan Instalasi dan Setup Proyek](#-panduan-instalasi-dan-setup-proyek)
 4. [Credential Akses](#-credential-akses)
 5. [Hak Akses Berdasarkan Role](#-hak-akses-berdasarkan-role)
-6. [Hasil Output ](#-hasil-output)
+6. [Hasil Output](#-hasil-output)
 
 ## 🛠️ Fitur Aplikasi
 1. Login dan Panel Admin
@@ -36,7 +36,7 @@
 | Laragon / XAMPP | Lingkungan server lokal |
 
 
-## 🚀 Panduan Instalasi & Setup Proyek
+## 🚀 Panduan Instalasi dan Setup Proyek
 
 Ikuti langkah-langkah di bawah ini untuk menjalankan proyek di lingkungan lokal:
 
