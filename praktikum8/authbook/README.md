@@ -1,7 +1,23 @@
-# 📚 Authbook
+# TUGAS PERTEMUAN 8 - PRAK PEMROGRAMAN BERBASIS WEB
 
-Aplikasi manajemen inventaris buku berbasis **Laravel** dan **Filament Admin Panel v3**, dengan pembagian hak akses untuk `admin`, `staff`, dan `viewer`.
+| **Nama** | Fatimah |
+|---|---|
+| **NPM** | 4524210039 |
 
+---
+
+# 📚 Authbook — Aplikasi Pengelolaan Buku
+
+**Authbook** merupakan aplikasi berbasis web yang dikembangkan untuk mempermudah proses pengelolaan koleksi buku dan informasi penulis. Proyek ini menggunakan **Laravel 11** sebagai framework utama dan **Filament 3.x** untuk membangun panel administrasi yang praktis dan mudah digunakan.
+
+## 📑 Daftar Isi
+
+1. [Penjelasan Arsitektur](#1-penjelasan-arsitektur)
+   - [A. Diagram ERD](#a-diagram-erd-entity-relationship-diagram)
+   - [B. Penjelasan Relasi Antar Tabel](#b-penjelasan-relasi-antar-tabel)
+   - [C. Penjelasan Flow Aplikasi](#c-penjelasan-flow-aplikasi-request-hingga-response)
+2. [Perbandingan dengan Pendekatan Tradisional](#2-perbandingan-dengan-pendekatan-tradisional)
+3. [Refleksi Pembelajaran](#3-refleksi-pembelajaran)
 ---
 
 ## 1. Penjelasan Arsitektur
