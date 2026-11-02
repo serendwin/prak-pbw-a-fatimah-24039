@@ -13,9 +13,6 @@
 ## 📑 Daftar Isi
 
 1. [Penjelasan Arsitektur](#1-penjelasan-arsitektur)
-   - [A. Diagram ERD](#a-diagram-erd-entity-relationship-diagram)
-   - [B. Penjelasan Relasi Antar Tabel](#b-penjelasan-relasi-antar-tabel)
-   - [C. Penjelasan Flow Aplikasi](#c-penjelasan-flow-aplikasi-request-hingga-response)
 2. [Perbandingan dengan Pendekatan Tradisional](#2-perbandingan-dengan-pendekatan-tradisional)
 3. [Refleksi Pembelajaran](#3-refleksi-pembelajaran)
 ---
@@ -60,8 +57,7 @@ Database dirancang dengan prinsip relasional standar Laravel Eloquent. Berikut e
 - book_id (FK → `books.id`)
 - category_id (FK → `categories.id`)
 
-```
-```
+
 ### B. Penjelasan Relasi Antar Tabel
 
 - **One-to-Many (`authors` → `books`)**: satu penulis dapat menulis banyak buku, tetapi satu buku hanya memiliki satu penulis utama yang dicatat di kolom `author_id`.
